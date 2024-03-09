@@ -6,13 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: 681545bc7130a99488005d3514c4cf7e
-  - enabled: 1
-    path: Assets/Scenes/kuis.unity
-    guid: 527ed9407e7caa84ea8b3ff3f4428e7d
-  - enabled: 1
-    path: Assets/Scenes/Menu AR 1.unity
-    guid: f03880b581272c843abc2f0e28721b82
-  m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6a71eace4be6707438ba29008030a205, type: 2}
+    path: Assets/Scenes/5.unity
+    guid: 081cd2bcbf0d30841943717710015cd6
+  m_configObjects: {}
