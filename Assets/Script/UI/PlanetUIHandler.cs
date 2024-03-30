@@ -12,7 +12,7 @@ public class Planets
     public Color planetBtnColor;
 }
 
-public class PlanetUIHandler : MonoBehaviour
+public class PlanetUIHandler : MonoBehaviour, IButtonClick
 {
     [SerializeField] List<Planets> planets;
 
@@ -21,10 +21,25 @@ public class PlanetUIHandler : MonoBehaviour
 
     int planetIndex = 0;
 
+    public static List<Planets> Planets = new List<Planets>();
+    public static int CurrentPlanetIndex = 0;
+
+    private void Awake()
+    {
+    }
+
     private void Start()
     {
         planetBtnImage = GetComponent<Image>();
         planetText = GetComponentInChildren<TextMeshProUGUI>();
+
+        CurrentPlanetIndex = planetIndex;
+
+        foreach (var item in planets)
+        {
+            Planets.Add(item);
+        }
+
 
         ShowPlanet(planetIndex);
     }
@@ -43,13 +58,18 @@ public class PlanetUIHandler : MonoBehaviour
         }
     }
 
-    public void ChangePlanets()
+    void ChangePlanets()
     {
-        planetIndex++;
+        CurrentPlanetIndex = planetIndex++;
 
         if (planetIndex >= planets.Count)
             planetIndex = 0;
 
         ShowPlanet(planetIndex);
+    }
+
+    public void OnClick()
+    {
+        ChangePlanets();
     }
 }
