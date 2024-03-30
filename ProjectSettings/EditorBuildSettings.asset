@@ -5,22 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main Menu.unity
     guid: 681545bc7130a99488005d3514c4cf7e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/kuis.unity
     guid: 527ed9407e7caa84ea8b3ff3f4428e7d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu AR 1.unity
     guid: f03880b581272c843abc2f0e28721b82
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu AR 2.unity
     guid: 003f1e9d59b5f694794c991b14e4a735
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu AR 3.unity
     guid: b92bdee80482551458fd5cec94cf0697
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu AR 4.unity
     guid: a37ae80dcda5ec0498dfed04cb776aa3
   - enabled: 1
