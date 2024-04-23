@@ -338,6 +338,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 690669725}
+  _ZoomIn: 0
+  _ZoomOut: 0
   Scale: 0.1
 --- !u!114 &63442326
 MonoBehaviour:
@@ -805,6 +807,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 19459675}
+  _ZoomIn: 0
+  _ZoomOut: 0
   Scale: 0.1
 --- !u!114 &111081088
 MonoBehaviour:
@@ -3031,6 +3035,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 8204707763857842479}
+  _ZoomIn: 0
+  _ZoomOut: 0
   Scale: 0.1
 --- !u!114 &545520846
 MonoBehaviour:
@@ -4836,6 +4842,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 1150647014}
+  _ZoomIn: 0
+  _ZoomOut: 0
   Scale: 0.1
 --- !u!114 &949551890
 MonoBehaviour:
@@ -5976,6 +5984,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 1552247449}
+  _ZoomIn: 0
+  _ZoomOut: 0
   Scale: 0.1
 --- !u!114 &1332745344
 MonoBehaviour:
@@ -6226,6 +6236,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 1131701554}
+  _ZoomIn: 0
+  _ZoomOut: 0
   Scale: 0.1
 --- !u!114 &1381491545
 MonoBehaviour:
@@ -7403,6 +7415,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 1475776399}
+  _ZoomIn: 0
+  _ZoomOut: 0
   Scale: 0.1
 --- !u!114 &1592160347
 MonoBehaviour:
@@ -8660,6 +8674,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Object: {fileID: 129311463}
+  _ZoomIn: 0
+  _ZoomOut: 0
   Scale: 0.1
 --- !u!114 &2142061506
 MonoBehaviour:

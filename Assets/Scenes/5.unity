@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37089851, g: 0.3783701, b: 0.3572253, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -315,7 +315,7 @@ Transform:
   m_GameObject: {fileID: 63442323}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.3, z: 0}
+  m_LocalPosition: {x: -13, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -365,7 +365,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78755360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -373,8 +373,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -7.9000015}
-  m_SizeDelta: {x: -28, y: -48}
+  m_AnchoredPosition: {x: -0.083999634, y: -9.985}
+  m_SizeDelta: {x: -36.871, y: -59.098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &78755362
 MonoBehaviour:
@@ -396,10 +396,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Merkurius merupakan planet terkecil di Tata Surya sekaligus yang terdekat
+    dari Matahari. Periode revolusi planet ini merupakan yang terpendek dari semua
+    planet di Tata Surya, yakni 87,79 hari.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -430,8 +432,8 @@ MonoBehaviour:
   m_fontSizeMin: 0.3
   m_fontSizeMax: 4
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -633,7 +635,7 @@ Transform:
   m_GameObject: {fileID: 111081085}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.3, z: 0}
+  m_LocalPosition: {x: -13, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -808,7 +810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &129311464
 Transform:
   m_ObjectHideFlags: 0
@@ -1242,8 +1244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -7.9000015}
-  m_SizeDelta: {x: -28, y: -48}
+  m_AnchoredPosition: {x: -0.083999634, y: -9.985002}
+  m_SizeDelta: {x: -36.871002, y: -59.098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &228681286
 MonoBehaviour:
@@ -1265,10 +1267,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 'Bumi adalah planet terdekat ketiga dari Matahari yang merupakan planet
+    terpadat dan terbesar kelima dari delapan planet dalam Tata Surya. Bumi juga
+    merupakan planet terbesar dari empat planet kebumian di Tata Surya. Bumi terkadang
+    disebut dengan dunia atau "Planet Biru". '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1292,15 +1297,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4
+  m_fontSize: 3.65
   m_fontSizeBase: 0.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 0.3
   m_fontSizeMax: 4
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1772,8 +1777,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: 3, y: 0}
+  m_SizeDelta: {x: 90, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &386827666
 MonoBehaviour:
@@ -1788,7 +1793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.8509804, a: 1}
+  m_Color: {r: 0, g: 0.028794289, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2177,8 +2182,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -1.667, y: -5.235, z: -10.809}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.999999, y: -0.6999959}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: 3, y: 0}
+  m_SizeDelta: {x: 90, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &409049559
 MonoBehaviour:
@@ -2193,7 +2198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.8509804, a: 1}
+  m_Color: {r: 0, g: 0.40390944, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2252,8 +2257,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -7.9000015}
-  m_SizeDelta: {x: -28, y: -48}
+  m_AnchoredPosition: {x: -0.083999634, y: -9.985002}
+  m_SizeDelta: {x: -36.871002, y: -59.098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419317027
 MonoBehaviour:
@@ -2275,10 +2280,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Saturnus adalah planet keenam dari Matahari dan terbesar kedua di Tata
+    Surya , setelah Yupiter . Ia adalah raksasa gas dengan radius rata-rata sekitar
+    sembilan setengah kali radius Bumi . Massa jenisnya hanya seperdelapan kepadatan
+    rata-rata Bumi, namun 95 kali lebih besar.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2302,15 +2310,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4
+  m_fontSize: 3.6
   m_fontSizeBase: 0.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 0.3
   m_fontSizeMax: 4
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2521,8 +2529,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: 3, y: 0}
+  m_SizeDelta: {x: 90, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &469894934
 MonoBehaviour:
@@ -2537,7 +2545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.8509804, a: 1}
+  m_Color: {r: 1, g: 0.99633837, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2597,8 +2605,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: 3, y: 0}
+  m_SizeDelta: {x: 90, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515719218
 MonoBehaviour:
@@ -2613,7 +2621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.8509804, a: 1}
+  m_Color: {r: 0.7479286, g: 0, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3081,8 +3089,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -7.9000015}
-  m_SizeDelta: {x: -28, y: -48}
+  m_AnchoredPosition: {x: -0.083999634, y: -9.985002}
+  m_SizeDelta: {x: -36.871002, y: -59.098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &615789864
 MonoBehaviour:
@@ -3104,10 +3112,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Neptunus merupakan planet terbesar keempat berdasarkan diameter (49.530
+    km) dan terbesar ketiga berdasarkan massa. Massa Neptunus tercatat 17 kali lebih
+    besar daripada Bumi, dan sedikit lebih kecil daripada Uranus. Neptunus mengorbit
+    Matahari pada jarak 30,1 sa atau sekitar 4.450 juta km.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3131,15 +3142,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4
+  m_fontSize: 3.5
   m_fontSizeBase: 0.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 0.3
   m_fontSizeMax: 4
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3607,6 +3618,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759648430}
   m_CullTransparentMesh: 1
+--- !u!1 &779756613 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1855548267}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &780129027
 GameObject:
   m_ObjectHideFlags: 0
@@ -3642,8 +3659,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: 3, y: 0}
+  m_SizeDelta: {x: 90, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &780129029
 MonoBehaviour:
@@ -3658,7 +3675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.8509804, a: 1}
+  m_Color: {r: 1, g: 0.4806253, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4255,8 +4272,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: 3, y: 0}
+  m_SizeDelta: {x: 90, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &922530034
 MonoBehaviour:
@@ -4271,7 +4288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.8509804, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.8496766, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4502,7 +4519,7 @@ Transform:
   m_GameObject: {fileID: 949551887}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.3, z: 0}
+  m_LocalPosition: {x: -13, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4675,28 +4692,28 @@ MonoBehaviour:
   planets:
   - planetName: Merkurius
     planetObj: {fileID: 1332745341}
-    planetBtnColor: {r: 0.83137256, g: 0.16576453, b: 0.01960784, a: 1}
+    planetBtnColor: {r: 1, g: 0.5943963, b: 0.043137252, a: 1}
   - planetName: Venus
     planetObj: {fileID: 1592160344}
-    planetBtnColor: {r: 0.8921741, g: 0.9150943, b: 0.23021233, a: 1}
+    planetBtnColor: {r: 1, g: 0.8820648, b: 0.043137252, a: 1}
   - planetName: Bumi
     planetObj: {fileID: 919132149428339688}
-    planetBtnColor: {r: 0.58608764, g: 0.990566, b: 0.2865788, a: 1}
+    planetBtnColor: {r: 0, g: 0.033422947, b: 1, a: 1}
   - planetName: Mars
     planetObj: {fileID: 111081085}
-    planetBtnColor: {r: 0.9339623, g: 0.40350327, b: 0.023495832, a: 1}
+    planetBtnColor: {r: 0.93333334, g: 0.02352941, b: 0.83665687, a: 1}
   - planetName: Jupiter
     planetObj: {fileID: 949551887}
-    planetBtnColor: {r: 0.5849056, g: 0, b: 0.059616446, a: 1}
+    planetBtnColor: {r: 0.6893573, g: 0, b: 1, a: 1}
   - planetName: Saturnus
     planetObj: {fileID: 2142061503}
     planetBtnColor: {r: 0.8396226, g: 0.5609451, b: 0.14785801, a: 1}
   - planetName: Uranus
     planetObj: {fileID: 63442323}
-    planetBtnColor: {r: 0.18274589, g: 0.48491618, b: 0.7264151, a: 1}
+    planetBtnColor: {r: 0, g: 0.6715338, b: 1, a: 1}
   - planetName: Neptunus
     planetObj: {fileID: 1381491542}
-    planetBtnColor: {r: 0.18393251, g: 0.9433962, b: 0.88288975, a: 1}
+    planetBtnColor: {r: 0.043137252, g: 0.42671788, b: 1, a: 1}
 --- !u!1 &964091497
 GameObject:
   m_ObjectHideFlags: 0
@@ -4942,8 +4959,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: 3, y: 0}
+  m_SizeDelta: {x: 90, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1064806645
 MonoBehaviour:
@@ -4958,7 +4975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.8509804, a: 1}
+  m_Color: {r: 0, g: 0.6691942, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5031,7 +5048,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1131701555
 Transform:
   m_ObjectHideFlags: 0
@@ -5215,8 +5232,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: 3, y: 0}
+  m_SizeDelta: {x: 90, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1153094052
 MonoBehaviour:
@@ -5231,7 +5248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.8509804, a: 1}
+  m_Color: {r: 0.8018868, g: 0.55236435, b: 0.07943218, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5615,7 +5632,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1332745342
 Transform:
   m_ObjectHideFlags: 0
@@ -5625,7 +5642,7 @@ Transform:
   m_GameObject: {fileID: 1332745341}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.3, z: 0}
+  m_LocalPosition: {x: -13, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5860,12 +5877,13 @@ Transform:
   m_GameObject: {fileID: 1381491542}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.3, z: 0}
+  m_LocalPosition: {x: -13, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1181513088}
   - {fileID: 1131701555}
+  - {fileID: 1855548268}
   - {fileID: 823856266}
   m_Father: {fileID: 400326447}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5881,7 +5899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecd18f37e6ff87041b16d60caf5dc821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectRotate: {fileID: 1131701554}
+  objectRotate: {fileID: 779756613}
   rotateSpeed: 200
   shouldRotate: 1
 --- !u!1 &1416703925
@@ -6269,8 +6287,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -7.9000015}
-  m_SizeDelta: {x: -28, y: -48}
+  m_AnchoredPosition: {x: -0.083999634, y: -9.985002}
+  m_SizeDelta: {x: -36.871002, y: -59.098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488823856
 MonoBehaviour:
@@ -6292,10 +6310,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Venus adalah planet kebumian dan kadang-kadang disebut \u201Cplanet saudara\u201D
+    Bumi karena ukuran, gravitasi, dan komposisi yang mirip (Venus merupakan planet
+    terdekat dari Bumi dan planet yang ukurannya paling mendekati Bumi)."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6326,8 +6346,8 @@ MonoBehaviour:
   m_fontSizeMin: 0.3
   m_fontSizeMax: 4
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -6403,8 +6423,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -7.9000015}
-  m_SizeDelta: {x: -28, y: -48}
+  m_AnchoredPosition: {x: -0.083999634, y: -9.985002}
+  m_SizeDelta: {x: -36.871002, y: -59.098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1498522488
 MonoBehaviour:
@@ -6426,10 +6446,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Mars adalah planet terdekat keempat dari Matahari. Namanya diambil dari
+    dewa perang Romawi, Mars. Planet ini sering dijuluki sebagai "planet merah" karena
+    tampak dari jauh berwarna kemerah-kemerahan. Ini disebabkan oleh keberadaan besi(III)
+    oksida di permukaan planet Mars.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6453,15 +6476,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4
+  m_fontSize: 3.5
   m_fontSizeBase: 0.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 0.3
   m_fontSizeMax: 4
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -6537,8 +6560,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -7.9000015}
-  m_SizeDelta: {x: -28, y: -48}
+  m_AnchoredPosition: {x: -0.083999634, y: -9.985002}
+  m_SizeDelta: {x: -36.871002, y: -59.098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1548390603
 MonoBehaviour:
@@ -6560,10 +6583,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Planet Jupiter merupakan planet kelima dari Matahari. Selain itu, Jupiter
+    merupakan planet yang terbesar di antara planet lainnya di tata surya. Jupiter
+    mampu menampung 1300 benda berukuran seperti Bumi.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6594,8 +6619,8 @@ MonoBehaviour:
   m_fontSizeMin: 0.3
   m_fontSizeMax: 4
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -6637,6 +6662,101 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548390601}
   m_CullTransparentMesh: 1
+--- !u!1001 &1552736517
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2142061504}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: beb28017a2498c24a8903f6739f10bb7,
+        type: 3}
+      propertyPath: m_Name
+      value: saturnus
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: beb28017a2498c24a8903f6739f10bb7, type: 3}
+--- !u!4 &1552736518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: beb28017a2498c24a8903f6739f10bb7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1552736517}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1552736519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: beb28017a2498c24a8903f6739f10bb7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1552736517}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1561627578
 GameObject:
   m_ObjectHideFlags: 0
@@ -6731,7 +6851,7 @@ Transform:
   m_GameObject: {fileID: 1592160344}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.3, z: 0}
+  m_LocalPosition: {x: -13, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7280,6 +7400,95 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829283965}
   m_Mesh: {fileID: 7238664596135999558, guid: c9e74a8ffff917f44aaa84d7a2bd25be, type: 3}
+--- !u!1001 &1855548267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1381491543}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.04111118
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.87261003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.31760404
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.12690715
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.34867463
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 43.561
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+        type: 3}
+      propertyPath: m_Name
+      value: neptunus
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b358037cddd7e64fb1fcbfeb74e20f5, type: 3}
+--- !u!4 &1855548268 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1b358037cddd7e64fb1fcbfeb74e20f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1855548267}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1901664772
 GameObject:
   m_ObjectHideFlags: 0
@@ -7416,8 +7625,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -7.9000015}
-  m_SizeDelta: {x: -28, y: -48}
+  m_AnchoredPosition: {x: -0.083999634, y: -9.985002}
+  m_SizeDelta: {x: -36.871002, y: -59.098}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1920680065
 MonoBehaviour:
@@ -7439,10 +7648,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Uranus (berasal dari nama Latin \u016Aranus untuk nama dewa Yunani \u039F\u1F50\u03C1\u03B1\u03BD\u03CC\u03C2)
+    adalah planet ketujuh dari Matahari. Uranus merupakan planet yang memiliki jari-jari
+    terbesar ketiga sekaligus massa terbesar keempat di Tata Surya.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7473,8 +7684,8 @@ MonoBehaviour:
   m_fontSizeMin: 0.3
   m_fontSizeMax: 4
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -7754,7 +7965,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2142061504
 Transform:
   m_ObjectHideFlags: 0
@@ -7764,12 +7975,13 @@ Transform:
   m_GameObject: {fileID: 2142061503}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.3, z: 0}
+  m_LocalPosition: {x: -13, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1829283966}
   - {fileID: 129311464}
+  - {fileID: 1552736518}
   - {fileID: 553882645}
   m_Father: {fileID: 400326447}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7785,7 +7997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecd18f37e6ff87041b16d60caf5dc821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectRotate: {fileID: 129311463}
+  objectRotate: {fileID: 1552736519}
   rotateSpeed: 200
   shouldRotate: 1
 --- !u!4 &543450653433862482
@@ -7797,7 +8009,7 @@ Transform:
   m_GameObject: {fileID: 919132149428339688}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.3, z: 0}
+  m_LocalPosition: {x: -13, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
