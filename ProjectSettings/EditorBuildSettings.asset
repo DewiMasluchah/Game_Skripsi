@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu AR 4.unity
     guid: a37ae80dcda5ec0498dfed04cb776aa3
   - enabled: 1
-    path: Assets/Scenes/5.unity
+    path: Assets/Scenes/Planet.unity
     guid: 081cd2bcbf0d30841943717710015cd6
   m_configObjects: {}
